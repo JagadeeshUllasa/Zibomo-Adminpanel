@@ -441,6 +441,10 @@ footer{
   display: flex;
   align-items: center;
 }
+.value-name{
+  font-size: 18px;
+  margin-right: 100px !important;
+}
 .dashboard .values div {
   margin-right: 20px;
   text-align: center;
@@ -459,5 +463,25 @@ footer{
   font-size: 14px;
   color: grey;
 }
+
+
+@media  (max-width:768px) {
+  .dashboard{
+    flex-direction: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .dashboard h2{
+    font-size: 18px;
+  }
+  .dashboard .values{
+  display: inline;
+  }
+  
+
+}
+
+/*  */
+
 
 
